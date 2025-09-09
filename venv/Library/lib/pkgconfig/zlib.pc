@@ -1,0 +1,13 @@
+prefix=G:/DataScienceProjects/AI-Agents/Text-to-SQL-Gemini/venv/Library
+exec_prefix=G:/DataScienceProjects/AI-Agents/Text-to-SQL-Gemini/venv/Library
+libdir=G:/DataScienceProjects/AI-Agents/Text-to-SQL-Gemini/venv/Library/lib
+sharedlibdir=G:/DataScienceProjects/AI-Agents/Text-to-SQL-Gemini/venv/Library/lib
+includedir=G:/DataScienceProjects/AI-Agents/Text-to-SQL-Gemini/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
